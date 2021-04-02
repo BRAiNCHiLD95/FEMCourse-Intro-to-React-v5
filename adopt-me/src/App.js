@@ -9,7 +9,7 @@ const App = () => {
 		<React.StrictMode>
 			<div>
 				<header>
-					<h1 id="something-important">Adopt Me!</h1>
+					<Link to="/">Adopt Me!</Link>
 				</header>
 				<Router>
 					<SearchParams path="/" />
